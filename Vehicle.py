@@ -8,7 +8,7 @@ Created on Wed Sep 13 13:59:59 2017
 from random import randint
 import time
 
-class Vehicle:
+class MyVehicle:
     tracks = []
     def __init__(self, i, xi, yi, max_age):
         self.i = i
